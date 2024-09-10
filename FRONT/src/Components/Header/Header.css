@@ -1,0 +1,198 @@
+.header {
+    background-color: #84bd73;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Choisissez une police de votre choix */
+    position: relative;
+}
+
+.headerContainer {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.headerList {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.headerListItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.headerListItem:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.headerListItem.active {
+    background-color: white;
+    color: #84bd73;
+    font-weight: bold;
+}
+
+.headerListItem.active:hover {
+    background-color: white;
+}
+
+/* Nouveaux styles pour la vidéo */
+.videoContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 20%; /* Ajuster la hauteur de la vidéo en fonction de vos préférences */
+}
+
+.videoContainer video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 50vh; /* Ajuster la hauteur maximale de la vidéo */
+}
+
+.videoText {
+    position: absolute;
+    top: 40%; /* Ajuster la position verticale en pourcentage par rapport au haut de la vidéo */
+    left: 5%; /* Ajuster la position horizontale en pourcentage par rapport à la gauche de la vidéo */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    z-index: 1;
+}
+/* Style pour la classe navLink */
+.navLink {
+    color: rgb(4, 4, 74);
+    text-decoration: none;
+    
+    transition: color 0.3s ease;
+}
+
+.navLink:hover {
+    color: #ecf0f1; /* Nouvelle couleur de survol pour la classe navLink */
+}
+
+/*Partie De Recherche */
+.headerSearch
+{
+    height: 30px;
+    background-color: white;
+    border: 3px solid rgb(4, 4, 74);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    left: 20%;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headerIcon {
+    color: rgb(4, 4, 74);
+    width: 20px;
+}
+
+.headerSearchItem
+{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput
+{
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.headerSearchText
+{
+    color: lightgray;
+    cursor: pointer;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.date
+{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+
+.options
+{
+z-index: 2;
+position: absolute;
+top: 50px;
+background-color: white;
+color: gray;
+border-radius: 5px;
+-webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.optionItem
+{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.optionCounter
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+
+.optionCounterButton
+{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(4, 4, 74);
+    color: rgb(4, 4, 74);
+    cursor: pointer;
+    background-color: white;
+}
+
+.optionCounterButton:disabled
+{
+    cursor: not-allowed;
+}
+.headerBtn
+{
+    padding: 10px 5px;
+    background-color: rgb(4, 4, 74);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+

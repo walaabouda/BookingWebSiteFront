@@ -1,0 +1,13 @@
+.campinaParagraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .imagePropos {
+    margin-right: 10px; /* Ajustez la marge selon vos besoins */
+    width: 700px; /* ajustez la largeur selon vos besoins */
+  height: 500px;
+  }
+  

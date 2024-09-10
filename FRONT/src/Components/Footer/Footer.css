@@ -1,0 +1,29 @@
+.footer {
+    width: 100%;
+    max-width: 1024px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: 0 auto; /* Ajout de cette propriété pour centrer le contenu */
+}
+
+.fLists {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; /* Permet le passage à la ligne si l'espace est insuffisant */
+    justify-content: space-between;
+    align-items: flex-start; /* Alignement vertical en haut */
+    margin-bottom: 20px; /* Réduit l'espacement en bas de la liste */
+}
+
+.fList {
+    list-style: none;
+    padding: 0;
+    max-width: 300px; /* Limite la largeur de chaque liste */
+}
+
+.fListItemLeft {
+    margin-bottom: 5px; /* Réduit l'espacement entre les éléments */
+    color: rgb(4, 4, 74);
+}

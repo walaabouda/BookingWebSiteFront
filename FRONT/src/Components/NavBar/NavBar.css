@@ -1,0 +1,59 @@
+/* Style pour la classe navLink */
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #ecf0f1; /* Nouvelle couleur de survol pour la classe navLink */
+}
+
+/* Style pour la classe navbar */
+.navbar {
+  height: 50px;
+  background-color: #84bd73;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif; /* Choisissez une police de votre choix */
+}
+
+/* Style pour la classe navContainer */
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Style pour la classe logo */
+.logo {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px; /* Ajustez la taille de la police selon vos préférences */
+}
+
+/* Style pour la classe navButton */
+.navButton {
+  margin-left: 20px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: rgb(4, 4, 74);
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px; /* Ajout de rayon de bordure pour les boutons */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navButton:hover {
+  background-color: white;
+  color: #84bd73;
+}

@@ -1,0 +1,61 @@
+/* Global Styles (for the whole page) */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  /* NavBar Styles */
+  /* Add styles for NavBar */
+  
+  /* Header Styles */
+  /* Add styles for Header */
+  
+  /* Propos Styles */
+  .campinaDescription {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .campinaTitle {
+    font-size: 28px;
+    color: rgb(4, 4, 74);
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .campinaParagraph {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .campinaSubtitle {
+    font-size: 24px;
+    color: rgb(4, 4, 74);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  /* MailList Styles */
+  /* Add styles for MailList */
+  
+  /* Footer Styles */
+  /* Add styles for Footer */
+  

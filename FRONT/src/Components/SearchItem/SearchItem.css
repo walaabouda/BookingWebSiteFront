@@ -1,0 +1,84 @@
+.SearchItem
+{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.isImg
+{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+
+}
+
+.isDesc
+{
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.isDetails
+{
+    flex: 1;
+}
+
+.siTitle
+{
+    font-size: 40px;
+    color: rgb(4, 4, 74);
+}
+
+.siDistance
+{
+    font-size: 20px;
+}
+
+.siSubtitle
+{
+    font-size: 12px;
+}
+
+.isDetails
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.isDetailTexts
+{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.isPrice
+{
+    font-size: 24px;
+}
+
+.isCheckButton
+{
+    padding: 10px 5px;
+    background-color: rgb(4, 4, 74);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    
+}
